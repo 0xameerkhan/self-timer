@@ -8,7 +8,6 @@ const App = () => {
   const diffYears = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365));
   const diffDays = Math.floor((timeDiff / (1000 * 60 * 60 * 24)));
   const diffWeeks = Math.floor((timeDiff / (1000 * 60 * 60 * 24 * 7)));
-  console.log("months:", diffMonths);
   return (
     <div className="app">
       {/* <p>{diffYears} YEARS</p> */}

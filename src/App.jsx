@@ -13,7 +13,9 @@ const App = () => {
       {/* <p>{diffYears} YEARS</p> */}
       {/* <p>{diffMonths} MONTHS</p> */}
       {/* <p>{diffWeeks} WEEKS</p> */}
-      <p>Starting from 31.05.24 10:00 AM</p>
+      <p>DISCIPLINE</p>
+      <p>HARDWORK</p>
+      <p>CONSISTENCY</p>
       <p>{diffDays} DAYS</p>
     </div>
   );

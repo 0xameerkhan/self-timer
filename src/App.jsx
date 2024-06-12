@@ -41,12 +41,11 @@ const App = () => {
       {/*       <p>CONSISTENCY</p> */}
       {/*       <p>you've promised!</p> */}
       {/*       <p>{diffDays} DAYS</p> */}
-      {/* <p>TIMER NOT YET CONFIRMED</p> */}
-       {/* <p>{diffDays} DAYS</p>{" "} */}
-{/*       // {showConfetti && (
-      //   <Confetti width={dimensions.width} height={dimensions.height} />
-      // )} */}
-        <p>TIME WILL START SOON.</p>
+       <p>{diffDays} DAYS</p>{" "}
+      {showConfetti && (
+     <Confetti width={dimensions.width} height={dimensions.height} />
+      )}
+      
     </div>
   );
 };

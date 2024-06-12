@@ -41,7 +41,7 @@ const App = () => {
       {/*       <p>CONSISTENCY</p> */}
       {/*       <p>you've promised!</p> */}
       {/*       <p>{diffDays} DAYS</p> */}
-      <p>FROM TODAY: 12/06/2024: 08:19PM</p>
+      <p>TRY TO CALM.☁️☁</p>
       <p>{diffDays} DAYS</p>{" "}
       {showConfetti && (
      <Confetti width={dimensions.width} height={dimensions.height} />

@@ -16,8 +16,10 @@ const App = () => {
 {/*       <p>DISCIPLINE</p> */}
 {/*       <p>HARDWORK</p> */}
 {/*       <p>CONSISTENCY</p> */}
-      <p>you've promised!</p>
-      <p>{diffDays} DAYS</p>
+{/*       <p>you've promised!</p> */}
+{/*       <p>{diffDays} DAYS</p> */}
+  <p>TIMER NOT YET CONFIRMED</p>
+    <p>xx: DAYS</p>
     </div>
   );
 };

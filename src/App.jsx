@@ -42,7 +42,7 @@ const App = () => {
       {/*       <p>you've promised!</p> */}
       {/*       <p>{diffDays} DAYS</p> */}
       {/* <p>TIMER NOT YET CONFIRMED</p> */}
-{/*      <p>{diffDays} DAYS</p>{" "} */}
+       {/* <p>{diffDays} DAYS</p>{" "} */}
       // {showConfetti && (
       //   <Confetti width={dimensions.width} height={dimensions.height} />
       // )}

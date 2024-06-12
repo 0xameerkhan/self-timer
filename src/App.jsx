@@ -43,9 +43,9 @@ const App = () => {
       {/*       <p>{diffDays} DAYS</p> */}
       {/* <p>TIMER NOT YET CONFIRMED</p> */}
        {/* <p>{diffDays} DAYS</p>{" "} */}
-      // {showConfetti && (
+{/*       // {showConfetti && (
       //   <Confetti width={dimensions.width} height={dimensions.height} />
-      // )}
+      // )} */}
         <p>TIME WILL START SOON.</p>
     </div>
   );

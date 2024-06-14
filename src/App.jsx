@@ -33,14 +33,7 @@ const App = () => {
 
   return (
     <div className="app">
-      {/* <p>{diffYears} YEARS</p> */}
-      {/* <p>{diffMonths} MONTHS</p> */}
-      {/* <p>{diffWeeks} WEEKS</p> */}
-            <p>DISCIPLINE</p>
-            <p>HARDWORK</p>
-            <p>CONSISTENCY</p>
-      {/*       <p>you've promised!</p> */}
-      {/*       <p>{diffDays} DAYS</p> */}
+      <p>get out of comfort zone.</p>
       <p>{diffDays} DAYS</p>{" "}
       {showConfetti && (
      <Confetti width={dimensions.width} height={dimensions.height} />

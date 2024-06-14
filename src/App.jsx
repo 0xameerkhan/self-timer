@@ -33,7 +33,6 @@ const App = () => {
 
   return (
     <div className="app">
-      <p>get out of comfort zone.</p>
       <p>{diffDays} DAYS</p>{" "}
       {showConfetti && (
      <Confetti width={dimensions.width} height={dimensions.height} />

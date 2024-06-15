@@ -29,8 +29,6 @@ const App = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  console.log(randomIndex);
-
   return (
     <div className="app">
       <p>{diffDays} DAYS</p>{" "}

@@ -14,7 +14,7 @@ const App = () => {
   const diffWeeks = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 7));
 
   const randomIndex = Math.floor(Math.random() * imgLinks.length);
-  const [showConfetti, setShowConfetti] = useState(true);
+  const [showConfetti, setShowConfetti] = useState(false);
   const [dimensions, setDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,

@@ -19,6 +19,7 @@ const App = () => {
     width: window.innerWidth,
     height: window.innerHeight,
   });
+  
   useEffect(() => {
     const handleResize = () => {
       setDimensions({ width: window.innerWidth, height: window.innerHeight });

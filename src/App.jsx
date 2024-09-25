@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <p>DAY {diffDays}</p>
+      <p>{diffDays} DAYS</p>
       {showConfetti && (
      <Confetti width={dimensions.width} height={dimensions.height} />
       )}

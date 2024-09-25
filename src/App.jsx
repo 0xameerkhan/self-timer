@@ -40,4 +40,7 @@ const App = () => {
   );
 };
 export default App;
-// im done with this
+/* 
+ive promised to GOD 
+ive promised myself
+*/

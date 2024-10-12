@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div className="app">
       <p>{diffDays} DAYS</p>
-  <p>by the name of ALLAH</p>
+
       {showConfetti && (
      <Confetti width={dimensions.width} height={dimensions.height} />
       )}

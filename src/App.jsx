@@ -32,12 +32,12 @@ const App = () => {
 
   return (
     <div className="app">
-{/*       <p>{diffDays} DAYS</p> */}
-      <p>timer will starts soon</p>
+      <p>{diffDays} DAYS</p>
+    
 
-{/*       {showConfetti && (
+      {showConfetti && (
      <Confetti width={dimensions.width} height={dimensions.height} />
-      )} */}
+      )}
     </div>
   );
 };

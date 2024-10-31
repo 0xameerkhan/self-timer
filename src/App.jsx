@@ -18,7 +18,7 @@ const App = () => {
   const [dimensions, setDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
-  });
+  });;
   
   useEffect(() => {
     const handleResize = () => {
@@ -29,7 +29,7 @@ const App = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+  
   return (
     <div className="app">
       <p>{diffDays} DAYS</p>

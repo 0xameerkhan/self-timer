@@ -1,7 +1,7 @@
 import "./App.scss";
 import React, { useState, useEffect } from "react";
 import Confetti from "react-confetti";
-import { imgLinks } from "./constants.js";
+import { imgLinks } from "./constants.js"; 
   
 const App = () => {
   const date1 = new Date(import.meta.env.VITE_LEFT_DATE);

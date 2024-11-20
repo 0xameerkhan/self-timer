@@ -18,7 +18,7 @@ const App = () => {
   const [dimensions, setDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
-  });;
+  });
   
   useEffect(() => {
     const handleResize = () => {
